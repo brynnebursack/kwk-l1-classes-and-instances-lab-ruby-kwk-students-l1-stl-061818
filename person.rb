@@ -5,4 +5,4 @@ class Person
   end
   
 adele_goldberg = Person.new("female", "starts with A")  
-  
+  puts "what is their gender? #{"
