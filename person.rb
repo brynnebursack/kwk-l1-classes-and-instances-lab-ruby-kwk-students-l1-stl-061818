@@ -1,5 +1,5 @@
 class Person
-  def peoples(gender, name)
+  def initialize(gender, name)
     @gender = gender
     @name = name
   end
