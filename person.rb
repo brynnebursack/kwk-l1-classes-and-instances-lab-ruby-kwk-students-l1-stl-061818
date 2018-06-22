@@ -4,4 +4,5 @@ class Person
     @name = name
   end
   
-adele_goldberg = Person.new()
+adele_goldberg = Person.new("female", "starts with A")  
+  
