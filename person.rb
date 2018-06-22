@@ -1,6 +1,7 @@
 class Person
-  def peoples(adele_goldberg, alan_kay)
-    @adele_goldberg = adele_goldberg
-    @alan_kay = alan_kay
+  def peoples(gender, name)
+    @gender = gender
+    @name = name
   end
   
+adele_goldberg = Person.new()
