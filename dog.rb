@@ -1,4 +1,5 @@
-class Dog(fluffy, big, smelly)
+class Dog
+  def initialize(fluffy, big, smelly)
   @fluffy = fluffy
   @big = big
   @smelly = smelly
@@ -30,3 +31,5 @@ lassie = Dog.new("super fluffy", "YUGE", "yup")
   puts "is lassie fluffy? #{lassie.is_it_fluffy}"
   puts "is lassie big? #{lassie.is_it_big}"
   puts "is lassie smelly? #{lassie.is_it_smelly}"
+  
+end
